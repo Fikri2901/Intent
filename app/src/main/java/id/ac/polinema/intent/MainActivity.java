@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
         Intent itn = new Intent(this, ImplicitIntentActivity.class);
         startActivity(itn);
     }
+
+    public void handleBundleIntent(View view) {
+        Intent itn = new Intent( this, BundleActivity.class);
+        startActivity(itn);
+    }
 }
